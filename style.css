@@ -1,0 +1,20 @@
+#grid {
+    display: grid;
+    grid-template-columns: repeat(16, 30px);
+    grid-template-rows: repeat(16, 30px);
+}
+
+#grid2 {
+    display: grid;
+    height: 480px;
+    width: 480px;
+    display: none;
+}
+
+div.thatGRIDDY:hover {
+    background-color: blue;
+}
+
+div.thatGRIDDY2:hover {
+    background-color: green;
+}
